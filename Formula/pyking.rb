@@ -3,9 +3,9 @@
 class Pyking < Formula
   desc "Compiler and interpreter for Pyking, a small statically typed Python-like language"
   homepage "https://github.com/pyking-lang/pyking-releases"
-  url "https://github.com/pyking-lang/pyking-releases/releases/download/v0.1.0/pyking-0.1.0-macos.tar.gz"
-  sha256 "06aea02f0a6c2a2e11e2785d6bfd968dee9a49b5d9fc2c7b00d4fabb4e40d81d"
-  version "0.1.0"
+  url "https://github.com/pyking-lang/pyking-releases/releases/download/v0.1.1/pyking-0.1.1-macos.tar.gz"
+  sha256 "179c5fa3d5835b786cd2e12ceee25d5f2f457362b965d6cb3afd2202bd2aa504"
+  version "0.1.1"
   license "MIT"
 
   depends_on macos: :big_sur
