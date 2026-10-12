@@ -3,9 +3,9 @@
 class Pyking < Formula
   desc "Compiler and interpreter for Pyking, a small statically typed Python-like language"
   homepage "https://github.com/pyking-lang/pyking-releases"
-  url "https://github.com/pyking-lang/pyking-releases/releases/download/v0.1.1/pyking-0.1.1-macos.tar.gz"
-  sha256 "179c5fa3d5835b786cd2e12ceee25d5f2f457362b965d6cb3afd2202bd2aa504"
-  version "0.1.1"
+  url "https://github.com/pyking-lang/pyking-releases/releases/download/v0.1.2/pyking-0.1.2-macos.tar.gz"
+  sha256 "5160e27097fff72fd4fdb70b5ef2a8ff7f8368f4dd31c93e56b2cde4fd9e1819"
+  version "0.1.2"
   license "MIT"
 
   depends_on macos: :big_sur
@@ -19,9 +19,9 @@ class Pyking < Formula
 
   def caveats
     <<~EOS
-      `pyk notebook` and `pyk playground` need Python 3.10 or later on
-      your PATH; nothing else does. Compiling for a target and running
-      the result needs that target's own tools (node, cc, javac, ...).
+      Nothing else needs to be installed. Compiling for a target and
+      running the result needs that target's own tools (node, cc,
+      javac, ...).
 
       To read the tutorial as a notebook:
         pyk notebook #{opt_libexec}/PYKING-TUTORIAL.md
